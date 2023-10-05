@@ -1,0 +1,13 @@
+.bg-blue{
+    /* background-color: #244292; */
+    /* background-color: #011640; */
+    /* background-color: #0c1630; */
+}
+
+:root{
+    --color-primary: #051933;
+}
+
+.bg-primary-blue{
+    background-color: var(--color-primary);
+}

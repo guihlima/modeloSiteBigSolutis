@@ -1,0 +1,23 @@
+/* .btn:hover{
+    background-color: #fff;
+    color: red;
+} */
+@import url(colors.css);
+
+.btn-base{
+    text-decoration: none;
+    padding: 0.375rem 0.75rem ;
+    border-radius: .375rem;
+}
+
+.btn-base:hover{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: var(--color-primary);
+    font-weight: 500;
+}
+
+.btn-primary-blue{
+    background-color: var(--color-primary);
+    color: #fff;
+}
